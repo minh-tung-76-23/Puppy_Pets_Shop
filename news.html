@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/hoverzoom.css">
+    <script src="https://kit.fontawesome.com/50f7da3bc4.js" crossorigin="anonymous"></script>
+    <title>Puppy Pet Shop</title>
+</head>
+<body>
+                <!-- HEADER -->
+    <header>
+        <section class="home">
+            <div class="navigation">
+                <img class="logo_nav" src="./assets/img/navigation.webp" alt="">
+                <div class="top_bar">
+                    <div class="top_bar-left">
+                        <p>Chào mừng bạn đến với Puppy Pet Shop</p>
+                        <p>Email: puppypet2u@gmail.com</p>
+                    </div>
+                    <div class="top_bar-right">
+                        <i class="fa-solid fa-map-location-dot "></i>
+                        <a href="">Hệ thống cửa hàng</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="mid_header">
+                <div class="logo_shop">
+                    <img src="./assets/img/logo.webp" alt="">
+                </div>
+    
+                <div class="search_header">
+                    <form action="/search" class="input_gr" role="search">
+                        <div class="collection-selector">
+                            <div class="search_text"> 
+                                Tất cả
+                            </div>
+                            <div class="search_info">
+                                <div class="search_items">Thức ăn dành riêng cho...</div>
+                                <div class="search_items">Giải pháp trị ve rận</div>
+                                <div class="search_items">Sữa tắm Yu</div>
+                                <div class="search_items">Sản phẩm yêu thích</div>
+                                <div class="search_items">Xịt Khử Mùi Cho Mèo</div>
+                                <div class="search_items">Tất cả</div>
+                            </div>
+                        </div>
+                        <input type="search" placeholder="Tìm kiếm sản phẩm..." class="text-input">
+                        <button class="btn-search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
+                </div>
+    
+                <div class="content_header-right">
+                    <div class="contact_header header_right-ct">
+                        <i class="fa-solid fa-phone"></i>
+                        <div class="content_header-text">
+                            <p>Gọi đặt hàng</p>
+                            <p>0918985026</p>
+                        </div>
+                    </div>
+        
+                    <div class="cart_header header_right-ct">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <div class="content_header-text">
+                            <p>Giỏ hàng</p>
+                            <p>Sản phẩm</p>
+                            <div class="cart_content">
+                                <h4>Không có sản phẩm nào trong giỏ hàng</h4>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+    
+            <div class="header_nav">
+                <div class="header_nav-menu">
+                    <div class="header_nav-menu-t">
+                        <i class="fa-solid fa-bars"></i>
+                        DANH MỤC SẢN PHẨM
+                    </div>
+    
+                    <div class="header_nav-list">
+                        <p><a href="./index.html">TRANG CHỦ</a></p>
+                        <p><a href="./news.html">TIN TỨC MỚI NHẤT</a></p>
+                        <div class="menu_select">
+                            <p><a href="./category.html">SHOP CHÓ YÊU</a>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </p>
+    
+                            <div class="menu_select-cart mn_ds-d">
+                                <div class="menu_select-cart-content">
+                                    <p>Thức ăn cho chó</p>
+                                    
+                                </div>
+    
+                                <div class="menu_select-cart-content">
+                                    <p>Sữa tắm cho chó</p>
+                                    
+                                </div>
+    
+                                <div class="menu_select-cart-content">
+                                    <p>Quầy Lồng Chuồng Túi Xách</p>
+                                    
+                                </div>
+    
+                                <div class="menu_select-cart-content">
+                                    <p>Y tế & Thuốc cho chó</p>
+                                    
+                                </div>
+    
+                                <div class="menu_select-cart-content">
+                                    <p>Đồ chơi phụ kiện huấn luyện chó</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="menu_select">
+                            <p><a href="./category.html">SHOP MÈO YÊU</a>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </p>
+    
+                            <div class="menu_select-cart mn_ds-d">
+                                <div class="menu_select-cart-content">
+                                    <p>Thức ăn cho chó</p>
+                                    
+                                </div>
+    
+                                <div class="menu_select-cart-content">
+                                    <p>Sữa tắm cho chó</p>
+                                    
+                                </div>
+    
+                                <div class="menu_select-cart-content">
+                                    <p>Quầy Lồng Chuồng Túi Xách</p>
+                                    
+                                </div>
+    
+                                <div class="menu_select-cart-content">
+                                    <p>Y tế & Thuốc cho chó</p>
+                                    
+                                </div>
+    
+                                <div class="menu_select-cart-content">
+                                    <p>Đồ chơi phụ kiện huấn luyện chó</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <p><a href="">GIỚI THIỆU</a></p>
+                        <p><a href="">SẢN PHẨM</a></p>
+                        <p><a href="">LIÊN HỆ</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+        <!----- NEWS --- -->
+    <section class="news">
+        <div class="container">
+            <div class="news_top">
+                <p>Trang Chủ</p> <span>/</span> <p style="color:#bb3107;">Tin Tức Mới Nhất</p>
+            </div>
+
+           <div class="content_news-inf">
+                <div class="ct_news-dog">
+                    <a href="" class="anmt_blinks">
+                        <img src="./assets/img/inf_dog.webp" alt="">
+                    </a>
+                    <h3>Thông tin về Chó</h2>
+                </div>
+
+                <div class="news_dog">
+                    <div class="new_dog-item">
+                        <a href="">
+                            <img src="./assets/img/dog_item-1.png" alt="">
+                            <h4>[Tổng hợp] Những Chú Chó Nổi Tiếng Việt Nam và trên thế giới</h4>
+                            <p>Hình ảnh của những chú chó nổi tiếng trên mạng xã hội Việt Nam và [...]</p>
+                        </a>
+                    </div>
+                
+
+                    <div class="new_dog-item">
+                        <a href="">
+                            <img src="./assets/img/Chó-nghiệp-vụ-Mỹ-1.jpg" alt="">
+                            <h4>Chó nghiệp vụ của Mỹ chết vì không được chăm sóc tử tế</h4>
+                            <p>Nhiều chú chó nghiệp vụ Mỹ được huấn luyện bày bản chết vì không được [...]</p>
+                        </a>
+                    </div>
+
+                    <div class="new_dog-item">
+                        <a href="">
+                            <img src="./assets/img/cái-đuôi-kì-lạ-trên-đầu-của-chú-chó.jpeg" alt="">
+                            <h4>Narwhal – chú cún kì lạ với chiếc đuôi trên mặt</h4>
+                            <p>Mới đây nhất trên mạng xã hội bỗng dưng xuất hiện một chú cún con [...]</p>
+                        </a>
+                    </div>
+
+                    <div class="new_dog-item">
+                        <a href="">
+                            <img src="./assets/img/1-1.jpg" alt="">
+                            <h4>Bộ luật chăn nuôi cấm đánh đạp, hành hạ chó mèo</h4>
+                            <p>Luật chăn nuôi 2018 được ban hành ngày 19/11/2018 và sẽ bắt đầu có hiệu [...]</p>
+                        </a>
+                    </div>
+
+                    <div class="new_dog-item">
+                        <a href="">
+                            <img src="./assets/img/2-3-279x420.jpg" alt="">
+                            <h4>[Khám Phá] Wasao – Chú chó Akita lông dài nổi danh Nhật Bản</h4>
+                            <p>Nói đến giống chó Akita, chắc hẳn mọi người đều nghĩ đến chú chó Hachiko [...]</p>
+                        </a>
+                    </div>
+
+                    <div class="new_dog-item">
+                        <a href="">
+                            <img src="./assets/img/corgi-fluffy.jpg" alt="">
+                            <h4>[Tổng hợp] Tìm hiểu đặc điểm và tính cách của chó Corgi Fluffy</h4>
+                            <p>Với đôi chân ngắn, cặp mông to tròn và đôi mắt sáng long lanh. Chó Corgi nổi tiếng được nhiều tín đồ thú cưng săn đón. [...]</p>
+                        </a>
+                    </div>
+
+                    <div class="new_dog-item">
+                        <a href="">
+                            <img src="./assets/img/triet-san-cho-cai-khi-nao-1.jpg" alt="">
+                            <h4>[Tổng hợp] Triệt sản chó cái khi nào tốt nhất? 9 lưu ý khi triệt sản chó cái</h4>
+                            <p>Nếu bạn đang phân vân không biết nên triệt sản chó cái khi nào là tốt nhất thì bài viết này sẽ giúp bạn vấn đề đó. Cách xử lý khi cô chó của bạn [...]</p>
+                        </a>
+                    </div>
+
+                    <div class="new_dog-item">
+                        <a href="">
+                            <img src="./assets/img/co-nen-mua-cho-pug-gia-500k-200k-hay-khong-1.jpg" alt="">
+                            <h4>[Tổng hợp] Có nên mua chó pug giá 500k, 200k hay không? Bảng giá chó Pug 2022</h4>
+                            <p>Giống chó Pug hiện nay đang được rất nhiều sen lựa chọn làm bé cưng đồng hành cùng mình[...]</p>
+                        </a>
+                    </div>
+                </div>
+
+                <a href="" class="more">
+                    <p>Xem Thêm... <span> >> </span></p>
+                </a>
+            </div>
+
+            <div class="content_news-inf" style="border-top: 2px solid #fc516d;">
+                <div class="ct_news-dog" style="background-color: #fc516d;">
+                    <a href="" class="anmt_blinks">
+                        <img src="./assets/img/new_cat-in4.webp" alt="">
+                    </a>
+                    <h3>Thông tin về Mèo</h2>
+                </div>
+
+                <div class="news_dog">
+                    <div class="new_dog-item">
+                        <a href="">
+                            <img src="./assets/img/nguoi-nuoi-meo-moi-hieu-.jpg" alt="">
+                            <h4>[Khám Phá] Chỉ người nuôi mèo mới hiểu những chuyện cười ra nước mắt này</h4>
+                            <p>Hình ảnh của những chú chó nổi tiếng trên mạng xã hội Việt Nam và [...]</p>
+                        </a>
+                    </div>
+                
+
+                    <div class="new_dog-item">
+                        <a href="">
+                            <img src="./assets/img/đã-réize.jpg" alt="">
+                            <h4>[Khám Phá] Paisley, chú mèo béo nhất nước Anh không thể liếm lông mình.</h4>
+                            <p>Hình ảnh của những chú chó nổi tiếng trên mạng xã hội Việt Nam và [...]</p>
+                        </a>
+                    </div>
+
+                    <div class="new_dog-item">
+                        <a href="">
+                            <img src="./assets/img/310973288_562294195898158_5119377692197399946_n.jpg" alt="">
+                            <h4>[Tổng hợp] Cách cho mèo uống thuốc hiệu quả và đúng cách</h4>
+                            <p> Có nhiều cách để cho mèo uống thuốc, tùy thuộc vào tính cách và thói quen ăn uống của từng con mèo [...]</p>
+                        </a>
+                    </div>
+
+                    <div class="new_dog-item">
+                        <a href="">
+                            <img src="./assets/img/Huong-dan-tay-giun-cho-meo-con-dung-cach.jpg" alt="">
+                            <h4>[Tổng hợp]Hướng dẫn cách Tẩy Giun Cho Mèo Con chi tiết từng bước cho người mới</h4>
+                            <p>Nếu bạn đang không biết tẩy giun cho mèo con thế nào thì bài viết này [...]</p>
+                        </a>
+                    </div>
+
+                    <div class="new_dog-item">
+                        <a href="">
+                            <img src="./assets/img/thuc-an-hat-kho-cho-meo.jpg" alt="">
+                            <h4>[Tổng hợp]Cách làm hạt khô cho mèo</h4>
+                            <p>Hạt khô cho mèo là một loại thức ăn được làm từ các nguyên liệu khô và được [...]</p>
+                        </a>
+                    </div>
+
+                    <div class="new_dog-item">
+                        <a href="">
+                            <img src="./assets/img//sup-thuong-cho-meo-2.jpg" alt="">
+                            <h4>[Tổng hợp] Súp thưởng cho mèo loại nào tốt nhất? Có nên cho mèo ăn súp thường xuyên?</h4>
+                            <p>Súp thưởng là đồ ăn vặt không thể thiếu trong thực đơn của các Boss. Tuy nhiên [...]</p>
+                        </a>
+                    </div>
+
+                    <div class="new_dog-item">
+                        <a href="">
+                            <img src="./assets/img/Tong-hop-cac-loai-thuc-an-danh-rieng-cho-meo.jpg" alt="">
+                            <h4>[Tổng hợp] Thức ăn cho mèo loại nào tốt nhất? Cách lựa chọn thức ăn cho mèo</h4>
+                            <p>Việc lựa chọn thức ăn cho mèo là công việc khó khăn đối với mọi người nuôi [...]</p>
+                        </a>
+                    </div>
+
+                    <div class="new_dog-item">
+                        <a href="">
+                            <img src="./assets/img/benh-thuong-gap-o-meo-3.jpg" alt="">
+                            <h4>[Tổng hợp] 10 căn bệnh thường gặp ở mèo có thể bạn chưa biết!</h4>
+                            <p>Bài viết này sẽ tổng hợp cho bạn những căn bệnh thường gặp ở mèo [...]</p>
+                        </a>
+                    </div>
+                </div>
+
+                <a href="" class="more">
+                    <p>Xem Thêm... <span> >> </span></p>
+                </a>
+            </div>
+
+            <div class="content_news-inf " style="border-top: 2px solid #3ab54a;">
+                <div class="ct_news-dog" style="background-color: #3ab54a;">
+                    <a href="" class="anmt_blinks">
+                        <img src="./assets/img/icon_title_fs.webp" alt="" style="width: 40px; margin: 5px 6px 0 65px;">
+                    </a>
+                    <h3>Khác </h3>
+                </div>
+
+                <div class="news_dog">
+                    <div class="new_dog-item">
+                        <a href="">
+                            <img src="./assets/img/nuoi-cho-hay-nuoi-meo.jpg" alt="">
+                            <h4>Nuôi Chó hay nuôi Mèo ??? Sen chọn đi</h4>
+                            <p>Nếu là một người chỉ thích CHÓ hoặc thích MÈO thì việc chọn nuôi thú cưng thực sự [...]</p>
+                        </a>
+                    </div>
+                
+
+                    <div class="new_dog-item">
+                        <a href="">
+                            <img src="./assets/img/Ca-Xecan-tu-A-Z-cach-nuoi-theo-huong-dan-cua-chuyen-gia-sinh-vat-canh.jpg" alt="">
+                            <h4>Cá Xecan, đặc điểm và tập tính, cách nuôi cá khỏe mạnh dễ đẻ và cách xử lý các bệnh thường gặp</h4>
+                            <p>Cá xecan là một trong những loài cá nước ngọt rất được ưa chuộng trong thú [...]</p>
+                        </a>
+                    </div>
+
+                    <div class="new_dog-item">
+                        <a href="">
+                            <img src="./assets/img/CA-HE-NEMO.jpg" alt="">
+                            <h4>Cá nemo, tất cả những gì bạn cần biết khi bắt đầu nuôi cá hề</h4>
+                            <p>Cá Nemo/ cá hề hay còn gọi là cá hải quỳ là loài cá nhỏ, có màu sắc rực rỡ thường [...]</p>
+                        </a>
+                    </div>
+
+                    <div class="new_dog-item">
+                        <a href="">
+                            <img src="./assets/img/chim-ung-cach-nuoi-1.jpg" alt="">
+                            <h4>Chim Ưng Shikra, Ấn Độ, lửa – Đặc điểm phân loại cách nuôi</h4>
+                            <p>Chim ưng là tuyển thủ săn mồi số một, không đứng số hai trên bầu [...]</p>
+                        </a>
+                    </div>
+
+                    <div class="new_dog-item">
+                        <a href="">
+                            <img src="./assets/img/Ca-khung-long-6-sung.jpg" alt="">
+                            <h4>Cá khủng long 6 sừng, vì sao bạn nuôi Axolotls không sống lâu, cách nuôi chuẩn khoa học</h4>
+                            <p>Axolotls hay còn được gọi là cá khủng long/ cá khủng long [...]</p>
+                        </a>
+                    </div>
+
+                    <div class="new_dog-item">
+                        <a href="">
+                            <img src="./assets/img/Ca-loc-nu-hoang-Thong-tin-khoa-hoc-ve-Channa-Aurantimaculata-cach-cham-soc.jpg" alt="">
+                            <h4>Cá lóc nữ hoàng – Thông tin khoa học về Channa Aurantimaculata, cách chăm sóc</h4>
+                            <p>Hình ảnh của những chú chó nổi tiếng trên mạng xã hội Việt Nam và [...]</p>
+                        </a>
+                    </div>
+
+                    <div class="new_dog-item">
+                        <a href="">
+                            <img src="./assets/img/1-420x280.jpg" alt="">
+                            <h4>Câu chuyện cảm động phía sau một tấm hình …</h4>
+                            <p>Dogily – Gia đình cún cưng: Câu chuyện cảm động phía sau một tấm hình Thời[...]</p>
+                        </a>
+                    </div>
+
+                    <div class="new_dog-item">
+                        <a href="">
+                            <img src="./assets/img/Meo-day-Hamster-nho-ten-cua-no.jpg" alt="">
+                            <h4>Đặt Tên Cho Chuột Hamster Siêu Dễ Thương – Cách Dạy Chuột Hamster Nhớ Tên</h4>
+                            <p>Khi bạn đã quyết định quan trọng là chọn chuột Hamster làm thứ cưng, bạn sẽ [...]</p>
+                        </a>
+                    </div>
+                </div>
+
+                <a href="" class="more">
+                    <p>Xem Thêm... <span> >> </span></p>
+                </a>
+            </div>
+
+
+
+            <div class="num_pages">
+                <button class="num_page active">1</button>
+                <button class="num_page">2</button>
+                <button class="num_page">3</button>
+                <button class="num_page">...</button>
+                <button class="num_page">21</button>
+                <button class="num_page">></button>
+            </div>
+        </div>
+    </section>
+    <!------ FOOTER --- -->
+    <footer>
+        <section class="receive_promotions">
+            <img src="./assets/img/receive-promotion.webp" alt="">
+            <form action="" class="input_email">
+                <input type="email" placeholder="Nhập email của bạn..." class="i_mail">
+                <button class="btn_email">Gửi Email</button>
+            </form>
+        </section>
+
+        <section class="bot_footer">
+            <div class="bot_ft">
+                <div class="bot_ft-left">
+                    <div class="bot_ft-l-top">
+                        <div class="bot_ft-items">
+                            <ul><span>Hướng dẫn</span>
+                                <li class="item_li-1">
+                                    <a href="">Hướng dẫn mua hàng</a>
+                                </li>
+
+                                <li>
+                                    <a href="">Hướng dẫn thanh toán</a>
+                                </li>
+
+                                <li>
+                                    <a href="">Điều khoản dịch vụ</a>
+                                </li>
+
+                                <li>
+                                    <a href="">Phương thức thanh toán</a>
+                                </li>
+
+                                <li>
+                                    <a href="">Giải quyết khiếu nại</a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                        <div class="bot_ft-items">
+                            <ul><span>Chính sách công ty</span>
+                                <li>
+                                    <a href="">Quy định sử dụng</a>
+                                </li>
+
+                                <li>
+                                    <a href="">Chính sách Bảo hành Sản phẩm</a>
+                                </li>
+
+                                <li>
+                                    <a href="">Chính sách đổi trả</a>
+                                </li>
+
+                                <li>
+                                    <a href="">Chính sách tích điểm khách hàng</a>
+                                </li>
+
+                                <li>
+                                    <a href="">Chính sách giao hàng</a>
+                                </li>
+
+                                <li>
+                                    <a href="">Chính sách bảo mật thông tin</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="pay">
+                        <h4>Chấp nhận thanh toán</h4>
+                        <img src="./assets/img/payment.webp" alt="">
+                    </div>
+                </div>
+    
+                <div class="bot_ft-right">
+                    <div class="bot_ft-contact">
+                        <div class="contact-items">
+                            <h4>Hotline liên hệ:</h4>
+
+                            <div class="hotline">
+                                <img src="./assets/img/icon-telephone.webp" alt="">
+                                <div class="hotline-num">
+                                    <p>091.898.5026</p>
+                                    <p>(Tất cả các ngày trong tuần )</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-items">
+                            <h4>Kết nối với chúng tôi</h4>
+
+                            <div class="icon-connect">
+                                <a href="">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+
+                                <a href="">
+                                    <i class="fa fa-google-plus"></i>
+                                </a>
+
+                                <a href="">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+
+                                <a href="">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="contact-items">
+                            <h4>CHỨNG NHẬN</h4>
+
+                            <img src="./assets/img/guarantee_img.webp" alt="">
+                        </div>
+                    </div>
+
+                    <div class="link">
+                        <h4> Hệ thống cửa hàng & liên kết</h4>
+                        <h5>Puppy Pet Shop</h5>
+                        <p>242 Kim Mã, Ba Đình</p>
+                        <p>Hotline: 0971111242</p>
+                        <p class="distance">----------------------------------</p>
+                        <h5>Petshop liên kết</h5>
+                        <h5>Petshop Văn Quán</h5>
+                        <p>32BT8 KDT Văn Quán, Hà Đông (cổng trường Tiểu học Ban Mai)</p>
+                        <p>Hotline: 0981111328</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="end_ft">
+            <span>© Bản quyền thuộc về</span> 
+            <a href="https://puppypetshop.com.vn">Puppy Pet Shop</a>
+            <span>. GPDKKD số 01A8017619 do UBND quận Ba Đình cấp ngày 19/01/2015.</span>
+        </div>
+    </footer>
+</body>
+
+<script type="text/javascript" src="./assets/js/main.js">
+
+</script>
+</html>
