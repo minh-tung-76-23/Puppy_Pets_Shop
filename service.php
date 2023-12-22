@@ -12,6 +12,7 @@
 
         <div class="service_mid">
             <div class="service_content">
+<<<<<<< HEAD
                 <a href="servicetronggiu.php">
                     <div class="service_content-img hover_zoom">
                         <div class="overlay"></div>
@@ -81,6 +82,66 @@
                         <p>Dịch vụ cắt tỉa lông chó mèo</p>
                     </div>
                 </a>
+=======
+                <div class="service_content-img hover_zoom">
+                    <div class="overlay"></div>
+                    <div class="overlay"></div>
+                    <img class="" src="./assets/img/service/trong-giu-cho-meo_1612248539.jpg" alt="Dịch vụ trông giữ chó mèo">
+                </div>
+                <div class="service_content-ct">
+                    <p>Dịch vụ trông giữ chó mèo</p>
+                </div>
+            </div>
+
+            <div class="service_content">
+                <div class="service_content-img hover_zoom">
+                    <div class="overlay"></div>
+                    <img src="./assets/img/service/cham-soc-thu-cung_1612248557.jpg" alt="Chăm sóc thú cưng">
+                </div>
+                <div class="service_content-ct">
+                    <p>Chăm sóc thú cưng</p>
+                </div>
+            </div>
+
+            <div class="service_content">
+                <div class="service_content-img hover_zoom">
+                    <div class="overlay"></div>
+                    <img src="./assets/img/service/cuu-ho-thu-cung_1612248570.jpg" alt="Cứu hộ thú cưng">
+                </div>
+                <div class="service_content-ct">
+                    <p>Cứu hộ thú cưng</p>
+                </div>
+            </div>
+
+            <div class="service_content">
+                <div class="service_content-img hover_zoom">
+                    <div class="overlay"></div>
+                    <img src="./assets/img/service/dich-vu-spa-cho-cho-meo_1612248623.jpg" alt="Spa cho thú cưng">
+                </div>
+                <div class="service_content-ct">
+                    <p>Spa cho thú cưng</p>
+                </div>
+            </div>
+
+            <div class="service_content">
+                <div class="service_content-img hover_zoom">
+                    <div class="overlay"></div>
+                    <img src="./assets/img/service/tam-cho-cho-meo_1612248603.jpg" alt="Dịch vụ tắm cho chó mèo">
+                </div>
+                <div class="service_content-ct">
+                    <p>Dịch vụ tắm cho chó mèo</p>
+                </div>
+            </div>
+
+            <div class="service_content">
+                <div class="service_content-img hover_zoom">
+                    <div class="overlay"></div>
+                    <img src="./assets/img/service/cat-tia-long-cho-meo_1612248645.jpg" alt="Dịch vụ cắt tỉa lông chó mèo">
+                </div>
+                <div class="service_content-ct">
+                    <p>Dịch vụ cắt tỉa lông chó mèo</p>
+                </div>
+>>>>>>> 7fcad9926185ba52545444f4f210897ccca0cae7
             </div>
         </div>
 
@@ -110,13 +171,21 @@
                 </p>
 
                 <div class="service_bottom-item-ct">
+<<<<<<< HEAD
                     <p>Tại&nbsp;<i>trung tâm chăm sóc thú cưng</i>&nbsp;Puppy’s Pet, các bác sĩ và nhân viên của chúng tôi rất thân thiện, hiểu biết và chuyên nghiệp. Với đội ngũ nhân viên được đào tạo từ IBPSA (The International Boarding &amp; Pet Services Association) do đó bạn hoàn toàn có thể tin tưởng ở chúng tôi. Chúng tôi có thể hỗ trợ bạn đưa ra quyết định chăm sóc sức khỏe tốt nhất cho thú cưng của bạn như:</p>
+=======
+                    <p>Tại&nbsp;<i>trung tâm chăm sóc thú cưng</i>&nbsp;Zoi’s Pet, các bác sĩ và nhân viên của chúng tôi rất thân thiện, hiểu biết và chuyên nghiệp. Với đội ngũ nhân viên được đào tạo từ IBPSA (The International Boarding &amp; Pet Services Association) do đó bạn hoàn toàn có thể tin tưởng ở chúng tôi. Chúng tôi có thể hỗ trợ bạn đưa ra quyết định chăm sóc sức khỏe tốt nhất cho thú cưng của bạn như:</p>
+>>>>>>> 7fcad9926185ba52545444f4f210897ccca0cae7
                     <ul>
                         <li>Khám sức khỏe định kì</li>
                         <li>Chăm sóc tại nhà</li>
                         <li>Hướng dẫn chăm sóc thú cưng khi bị bệnh,…</li>
                     </ul>
+<<<<<<< HEAD
                     <p>Các nhân viên và bác sĩ tại&nbsp;<i>spa thú cưng</i>&nbsp;Puppy’s Pet cũng là những người biết yêu và chăm sóc động vật.. Chính sách của Puppy’s Pet là bất cứ khi nào thú cưng của bạn cảm thấy không khỏe, chúng tôi sẽ đưa bạn đến gặp bác sĩ thú y bất cứ lúc nào. Mục tiêu chính của Puppy’s Pet là đảm bảo khách hàng và thú cưng của họ được chăm sóc tốt nhất và tận tình nhất có thể. Do đó, Hãy liên hệ với chúng tôi để nhận được dịch vụ chăm sóc thú cưng tận tình, uy tín từ Puppy’s Pet</p>
+=======
+                    <p>Các nhân viên và bác sĩ tại&nbsp;<i>spa thú cưng</i>&nbsp;Zoi’s Pet cũng là những người biết yêu và chăm sóc động vật.. Chính sách của Zoi’s Pet là bất cứ khi nào thú cưng của bạn cảm thấy không khỏe, chúng tôi sẽ đưa bạn đến gặp bác sĩ thú y bất cứ lúc nào. Mục tiêu chính của Zoi’s Pet là đảm bảo khách hàng và thú cưng của họ được chăm sóc tốt nhất và tận tình nhất có thể. Do đó, Hãy ghé địa chỉ: 165 Hoàng Văn Thụ, Phường 9, Phú Nhuận, Hồ Chí Minh và hiện nay Zoi’s Pet hỗ trợ khám chữa bệnh cho thú cưng tại: Quận 7, Quận Bình Thạnh, Quận 1, Quận 2, Quận 3, Quận 4, Tân Bình, Gò Vấp hày liên hệ với chúng tôi để nhận được dịch vụ chăm sóc thú cưng tận tình, uy tín từ Zoi’s Pet</p>
+>>>>>>> 7fcad9926185ba52545444f4f210897ccca0cae7
                 </div>
             </div>
 

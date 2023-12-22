@@ -156,7 +156,11 @@
         <div class="service_index-right-item">
             <i class="fa-solid fa-dog ic-1"></i>
             <h2>SHOP</h2>
+<<<<<<< HEAD
             <p>Cùng với hơn 3.000 khách hàng đã luôn tin tưởng, đồng hành, chúng tôi luôn đặt ra những mục tiêu và thử thách mới. PET SHOP cung cấp các sản phẩm, phụ kiện rất đa dạng...</p>
+=======
+            <p>Cùng với hơn 3.000 khách hàng đã luôn tin tưởng, đồng hành, chúng tôi luôn đặt ra những mục tiêu và thử thách mới. PET SERVICE cung cấp các sản phẩm, phụ kiện rất đa dạng...</p>
+>>>>>>> 7fcad9926185ba52545444f4f210897ccca0cae7
             <button class="more">
                 Xem thêm
             </button>
@@ -166,7 +170,11 @@
         <div class="service_index-right-item">
             <i class="fa-solid fa-house-medical-flag ic-1"></i>
             <h2>HOTEL</h2>
+<<<<<<< HEAD
             <p>Mọi hành động ở PET SHOP đều bắt đầu từ sứ mệnh Trao Gửi Yêu Thương. Mọi thú cưng mới khi đến với chúng tôi đều được quan tâm đặc biệt bởi đội ngũ Nhân viên nhiều kinh nghiệm...</p>
+=======
+            <p>Mọi hành động ở PET SERVICE đều bắt đầu từ sứ mệnh Trao Gửi Yêu Thương. Mọi thú cưng mới khi đến với chúng tôi đều được quan tâm đặc biệt bởi đội ngũ Nhân viên nhiều kinh nghiệm...</p>
+>>>>>>> 7fcad9926185ba52545444f4f210897ccca0cae7
             <button class="more">
                 Xem thêm
             </button>

@@ -1,6 +1,10 @@
 <?php
     session_start();
+<<<<<<< HEAD
     include 'config.php';
+=======
+    include './config.php';
+>>>>>>> 7fcad9926185ba52545444f4f210897ccca0cae7
     $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 ?>
 
@@ -98,9 +102,15 @@
                                 <p>Giỏ hàng</p>
                                 <p>Sản phẩm</p>
                             </a>
+<<<<<<< HEAD
                             <!-- <div class="cart_content">
                                 <h4>Không có sản phẩm nào trong giỏ hàng</h4>
                             </div> -->
+=======
+                            <div class="cart_content">
+                                <h4>Không có sản phẩm nào trong giỏ hàng</h4>
+                            </div>
+>>>>>>> 7fcad9926185ba52545444f4f210897ccca0cae7
                         </div> 
                     </div>
                 </div>

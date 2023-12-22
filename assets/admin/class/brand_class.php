@@ -38,7 +38,11 @@
         }
 
         public function update_brand($brand_id, $category_id, $brand_name) {
+<<<<<<< HEAD
             $query = "UPDATE tbl_brand SET category_id = '$category_id', brand_name = '$brand_name' WHERE brand_id = '$brand_id'";
+=======
+            $query = "UPDATE tbl_product SET category_id = '$category_id', brand_name = '$brand_name' WHERE brand_id = '$brand_id'";
+>>>>>>> 7fcad9926185ba52545444f4f210897ccca0cae7
             $result = $this -> db -> update($query);
             header("Location: brandlist.php");
             return $result;

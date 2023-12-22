@@ -10,10 +10,13 @@ header {
     background-color: #eaeaea;
 }
 
+<<<<<<< HEAD
 a {
     text-decoration: none;
 }
 
+=======
+>>>>>>> 7fcad9926185ba52545444f4f210897ccca0cae7
 .logo_nav {
     display: block;
     max-width: 100%;
@@ -1996,11 +1999,15 @@ a {
     border: 1px solid #ccc;
 }
 
+<<<<<<< HEAD
 .service_content a {
     color: #000;
 }
 
 .service_content:hover a {
+=======
+.service_content:hover {
+>>>>>>> 7fcad9926185ba52545444f4f210897ccca0cae7
     cursor: pointer;
     border: 1px solid #146791;
     color: red;
@@ -2072,6 +2079,7 @@ a {
     margin-left: 60px;
 }
 
+<<<<<<< HEAD
 /* SERVICE-TRONG GIU CHO MEO */
 .service_item-1 {
     background-color: #eaeaea;
@@ -2175,3 +2183,5 @@ a {
     width: 100%;
     padding: 20px;
 }
+=======
+>>>>>>> 7fcad9926185ba52545444f4f210897ccca0cae7

@@ -31,6 +31,7 @@
                        </div>
                        <div class="top_bar-right-l">
                             <i class="fa-solid fa-user"></i>
+<<<<<<< HEAD
                             <?php if(isset($_SESSION['username'])) { ?>
                                 <ul class="top_bar-right-l-account"><span><?php echo $_SESSION['username']; ?></span>
                                         <li class="sign_in"><a href="#">Thông tin</a></li>
@@ -43,6 +44,13 @@
                                     </ul>
                             <?php } ?>
                         </div>
+=======
+                            <ul class="top_bar-right-l-account"><span>Tài khoản</span>
+                                <li class="sign_in"><a href="">Đăng nhập</a></li>
+                                <li><a href="">Đăng ký</a></li>
+                            </ul>
+                       </div>
+>>>>>>> 7fcad9926185ba52545444f4f210897ccca0cae7
                     </div>
                 </div>
             </div>
@@ -333,6 +341,7 @@
                             <button class="next_page">THANH TOÁN</button>
                         </div>
 
+<<<<<<< HEAD
                         <?php if(isset($_SESSION['username'])) { ?>
                             <div class="cart-content_right-login">
                                     <p></p>
@@ -343,6 +352,12 @@
                                 <p>Hãy <a href="login.php">Đăng nhập</a> để nhận nhiều ưu đãi hơn!</p> 
                             </div>
                         <?php } ?>
+=======
+                        <div class="cart-content_right-login">
+                            <p>TÀI KHOẢN PUPPY PETS SHOP</p>
+                            <p>Hãy <a href="">Đăng nhập</a> để nhận nhiều ưu đãi hơn!</p> 
+                        </div>
+>>>>>>> 7fcad9926185ba52545444f4f210897ccca0cae7
                     </div>
                 </div>
             </div>
