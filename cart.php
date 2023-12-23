@@ -31,9 +31,16 @@
                        </div>
                        <div class="top_bar-right-l">
                             <i class="fa-solid fa-user"></i>
+<<<<<<< HEAD
                             <?php if(isset($_SESSION['username'])) { ?>
                                 <ul class="top_bar-right-l-account"><span><?php echo $_SESSION['username']; ?></span>
                                         <li class="sign_in"><a href="user.php">Thông tin</a></li>
+=======
+<<<<<<< HEAD
+                            <?php if(isset($_SESSION['username'])) { ?>
+                                <ul class="top_bar-right-l-account"><span><?php echo $_SESSION['username']; ?></span>
+                                        <li class="sign_in"><a href="#">Thông tin</a></li>
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
                                         <li><a href="logout.php">Đăng xuất</a></li>
                                 </ul>
                             <?php } else { ?>
@@ -43,6 +50,16 @@
                                     </ul>
                             <?php } ?>
                         </div>
+<<<<<<< HEAD
+=======
+=======
+                            <ul class="top_bar-right-l-account"><span>Tài khoản</span>
+                                <li class="sign_in"><a href="">Đăng nhập</a></li>
+                                <li><a href="">Đăng ký</a></li>
+                            </ul>
+                       </div>
+>>>>>>> 7fcad9926185ba52545444f4f210897ccca0cae7
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
                     </div>
                 </div>
             </div>
@@ -69,11 +86,18 @@
                                 <div class="search_items">Tất cả</div>
                             </div>
                         </div>
+<<<<<<< HEAD
                         <input type="text" placeholder="Tìm kiếm sản phẩm..." class="text-input" name="key">
                         <input type ="submit" class="btn-search" name="search" value="" >
                             <i class="fa-solid fa-magnifying-glass btn-search_ic"></i>
                         </input>
 
+=======
+                        <input type="search" placeholder="Tìm kiếm sản phẩm..." class="text-input">
+                        <button class="btn-search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
                     </form>
                 </div>
 
@@ -91,9 +115,15 @@
                         <div class="content_header-text">
                             <p>Giỏ hàng</p>
                             <p>Sản phẩm</p>
+<<<<<<< HEAD
                             <!-- <div class="cart_content">
                                 <h4>Không có sản phẩm nào trong giỏ hàng</h4>
                             </div> -->
+=======
+                            <div class="cart_content">
+                                <h4>Không có sản phẩm nào trong giỏ hàng</h4>
+                            </div>
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
                         </div> 
                     </div>
                 </div>
@@ -334,6 +364,10 @@
                             <button class="next_page">THANH TOÁN</button>
                         </div>
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
                         <?php if(isset($_SESSION['username'])) { ?>
                             <div class="cart-content_right-login">
                                     <p></p>
@@ -344,6 +378,15 @@
                                 <p>Hãy <a href="login.php">Đăng nhập</a> để nhận nhiều ưu đãi hơn!</p> 
                             </div>
                         <?php } ?>
+<<<<<<< HEAD
+=======
+=======
+                        <div class="cart-content_right-login">
+                            <p>TÀI KHOẢN PUPPY PETS SHOP</p>
+                            <p>Hãy <a href="">Đăng nhập</a> để nhận nhiều ưu đãi hơn!</p> 
+                        </div>
+>>>>>>> 7fcad9926185ba52545444f4f210897ccca0cae7
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
                     </div>
                 </div>
             </div>

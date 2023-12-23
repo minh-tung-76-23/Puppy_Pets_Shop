@@ -10,6 +10,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/50f7da3bc4.js" crossorigin="anonymous"></script>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/stylesign.css">
     <title>Đăng nhập</title>
@@ -36,6 +40,18 @@
             <img src="./assets/img/24752a13769047.56277daf47f76.png" alt="">
         </div>
 
+<<<<<<< HEAD
+=======
+=======
+    <link rel="stylesheet" href="./assets/css/stylesign.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Đăng nhập</title>
+</head>
+<body>
+    <div class="modal__overlay"></div>
+>>>>>>> 7fcad9926185ba52545444f4f210897ccca0cae7
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
         <form class="modal__body" method="post" action="login_submit.php">
             <div class="auth-form">
                 <div class="auth-form__container">
@@ -93,6 +109,10 @@
                 </div>
             </div> 
         </form>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
     </section>
     <footer>
         <section class="bot_footer">
@@ -225,6 +245,13 @@
     </footer>
 </body>
     <script type="text/javascript" src="assets/js/main.js"></script>
+<<<<<<< HEAD
+=======
+=======
+    </div>
+</body>
+>>>>>>> 7fcad9926185ba52545444f4f210897ccca0cae7
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
 </html>
 
 <?php

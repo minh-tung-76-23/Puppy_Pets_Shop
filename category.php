@@ -4,7 +4,11 @@
                  <!-------- CATEGORY --------->
     <section class="category">
         <div class="container">
+<<<<<<< HEAD
             <?php                               
+=======
+            <?php                             
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
                 // Lấy category_id từ tham số truyền vào
                 $category_id = isset($_GET['id']) ? $_GET['id'] : null;
                 $sql_category_name = "SELECT category_name FROM tbl_category WHERE category_id = $category_id";
@@ -257,8 +261,11 @@
                                 }
                             }
                         ?>
+<<<<<<< HEAD
 
                        
+=======
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
                     </div>
                 </div>
             </div>

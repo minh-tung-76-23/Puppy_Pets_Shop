@@ -14,6 +14,18 @@
         if ($productIndex !== false) {
             unset($_SESSION['cart'][$productIndex]);
         }
+<<<<<<< HEAD
+=======
+
+        // Kiểm tra xem giỏ hàng có trống sau khi xóa hay không
+        if (empty($_SESSION['cart'])) {
+            // Nếu giỏ hàng trống, hủy phiên làm việc và chuyển hướng về trang giỏ hàng với thông báo
+            session_unset();
+            session_destroy();
+            header('Location: cart.php?empty=1');
+            exit();
+        }
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
     }
 
     // Chuyển hướng về trang giỏ hàng

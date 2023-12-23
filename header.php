@@ -1,6 +1,14 @@
 <?php
     session_start();
+<<<<<<< HEAD
     include 'config.php';
+=======
+<<<<<<< HEAD
+    include 'config.php';
+=======
+    include './config.php';
+>>>>>>> 7fcad9926185ba52545444f4f210897ccca0cae7
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
     $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 ?>
 
@@ -41,7 +49,11 @@
                             <i class="fa-solid fa-user"></i>
                             <?php if(isset($_SESSION['username'])) { ?>
                                 <ul class="top_bar-right-l-account"><span><?php echo $_SESSION['username']; ?></span>
+<<<<<<< HEAD
                                         <li class="sign_in"><a href="user.php">Thông tin</a></li>
+=======
+                                        <li class="sign_in"><a href="#">Thông tin</a></li>
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
                                         <li><a href="logout.php">Đăng xuất</a></li>
                                 </ul>
                             <?php } else { ?>
@@ -61,7 +73,11 @@
                 </div>
     
                 <div class="search_header">
+<<<<<<< HEAD
                     <form action="./search.php?quanly=timkiem" class="input_gr" method="get">
+=======
+                    <form action="/search" class="input_gr" role="search">
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
                         <div class="collection-selector">
                             <div class="search_text"> 
                                 Tất cả
@@ -75,12 +91,19 @@
                                 <div class="search_items">Tất cả</div>
                             </div>
                         </div>
+<<<<<<< HEAD
 
                         <input type="text" placeholder="Tìm kiếm sản phẩm..." class="text-input" name="key">
                         <input type ="submit" class="btn-search" name="search" value="" >
                             <i class="fa-solid fa-magnifying-glass btn-search_ic"></i>
                         </input>
 
+=======
+                        <input type="search" placeholder="Tìm kiếm sản phẩm..." class="text-input">
+                        <button type ="button" class="btn-search" src="#">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
                     </form>
                 </div>
     
@@ -100,9 +123,21 @@
                                 <p>Giỏ hàng</p>
                                 <p>Sản phẩm</p>
                             </a>
+<<<<<<< HEAD
                             <!-- <div class="cart_content">
                                 <h4>Không có sản phẩm nào trong giỏ hàng</h4>
                             </div> -->
+=======
+<<<<<<< HEAD
+                            <!-- <div class="cart_content">
+                                <h4>Không có sản phẩm nào trong giỏ hàng</h4>
+                            </div> -->
+=======
+                            <div class="cart_content">
+                                <h4>Không có sản phẩm nào trong giỏ hàng</h4>
+                            </div>
+>>>>>>> 7fcad9926185ba52545444f4f210897ccca0cae7
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
                         </div> 
                     </div>
                 </div>

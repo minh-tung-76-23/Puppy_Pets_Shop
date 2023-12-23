@@ -1,5 +1,15 @@
+<<<<<<< HEAD
 /* Modal */
 /* .modal {
+=======
+<<<<<<< HEAD
+/* Modal */
+/* .modal {
+=======
+/* Modal
+.modal {
+>>>>>>> 7fcad9926185ba52545444f4f210897ccca0cae7
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
     position: fixed;
     top: 0;
     left: 0;
@@ -26,12 +36,23 @@
     animation: growth linear 0.1s;
 } */
 
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 7fcad9926185ba52545444f4f210897ccca0cae7
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
 /*authen modal */
 a {
     text-decoration: none;
     color: #000;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
 
 .content_mid {
     display: flex;
@@ -48,6 +69,16 @@ a {
 .auth-form {
     background-color: #fff;
     width: 500px;
+<<<<<<< HEAD
+=======
+=======
+.auth-form {
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10%;
+>>>>>>> 7fcad9926185ba52545444f4f210897ccca0cae7
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
     border: 1px solid #ccc;
 }
 
@@ -224,6 +255,10 @@ a {
         transform: scale(var(--growth-to))
     }
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
 
 .content_logo {
     display: flex;
@@ -243,4 +278,10 @@ a {
     height: 115px;
     background-color: #fff;
     justify-content: flex-start;
+<<<<<<< HEAD
 }
+=======
+}
+=======
+>>>>>>> 7fcad9926185ba52545444f4f210897ccca0cae7
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115

@@ -3,7 +3,11 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
+<<<<<<< HEAD
 -- Thời gian đã tạo: Th12 23, 2023 lúc 12:42 PM
+=======
+-- Thời gian đã tạo: Th12 19, 2023 lúc 12:10 PM
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
 -- Phiên bản máy phục vụ: 10.4.32-MariaDB
 -- Phiên bản PHP: 8.2.12
 
@@ -49,7 +53,11 @@ INSERT INTO `tbl_brand` (`brand_id`, `category_id`, `brand_name`) VALUES
 (15, 5, 'Khay cát - vệ sinh'),
 (16, 5, 'Sữa tắm cho mèo'),
 (17, 5, 'Y tế & thuốc cho mèo'),
+<<<<<<< HEAD
 (18, 5, 'Phụ kiện & đồ ăn vặt');
+=======
+(18, 5, 'Đồ thưởng & đồ ăn vặt');
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
 
 -- --------------------------------------------------------
 
@@ -106,9 +114,13 @@ INSERT INTO `tbl_product` (`product_id`, `product_name`, `category_id`, `brand_i
 (15, 'Pate Cao Cấp cho chó Nutri Plan Premium HOLIC 85g', 4, 3, '45000', '30000', '<p>? PATE HOLIC - PATE CHỨA THỊT VÀ RAU CỦ QUẢ ĐẦU TIÊN TỪ NUTRI PLAN! ?</p><p>&nbsp;Khác với mèo, chó là động vật ăn tạp vì vậy ngoài bổ sung nguồn Protein trực tiếp từ các loại thịt, cún cưng luôn cần những thành phần dinh dưỡng thiết yếu khác như tinh bột, chất xơ, vitamin cùng các khoáng chất tự nhiên khác</p><p>&nbsp;Vậy Sen đã biết gì chưa?</p><p>Pate Holic cho chó hoàn toàn mới từ Nutri Plan đã ra mắt rồi đó! Đây chính là sản phẩm thức ăn bổ sung giàu dinh dưỡng nhất cho Boss mà Sen từng biết đó nha!</p><p>Với nguồn nguyên liệu chứa đầy đủ nguồn đạm từ ???̣? ??́ ???̛̀ ???̆́?? ??̀ ???̣? ?̛́? ??̀ ??? ??̂́? ??????? kết hợp ?? ???̣? ??? ??̉ ???̉ ??̛?̛? ???? khác nhau: Khoai tây, cà rốt, bí đỏ, bắp cải, cần tây, súp lơ, đậu hà lan, táo, lê và nam việt quất</p><p>✨ Chứa tới ?? ???̣? ???̛̣? ???̂̉? ???̀? ???? ??̛?̛̃?? chỉ trong 1 lon pate Holic thơm nức mũi, siêu phẩm đỉnh cao này là không thể bỏ qua được đâu nha Sen uiii, tới samyang liền nha.</p>', 'sp-2-vi.webp'),
 (16, 'Thức ăn Hạt mềm ANF Soft Hàn Quốc cho Chó', 4, 3, '95000', '80000', '<p>Phương pháp đặc biệt “Water Tight” – Kín nước là phương pháp giữ chặt nước bên trong kết cấu của hạt, giúp nước không thoát ra ngoài để tạo độ ẩm, mềm xốp cho hạt và ức chế nấm mốc, vi sinh vật xuất hiện ở độ ẩm cao, đồng thời ngăn chặn nguyên nhân gây ra phân lỏng. Cá hồi và thịt gà giúp cải thiện khả năng tiêu hóa và tăng cảm giác ngon miệng.</p><p>Men vi sinh Probiotics và Prebiotics là những vi khuẩn có lợi giúp tăng cường sức khỏe đường ruột, cải thiện tiêu hóa và hạn chế tiêu chảy.</p><p>Axit béo, Omega-3 giúp tài tạo tế bào, làm đẹp da và lông bóng mượt. DHA &amp; EPA trong cá hồi giúp máu lưu thông dễ dàng. Giàu trái cây tươi và rau quả giúp chống oxy hóa và cải thiển tình trạng táo bón. Glucosamine và Chondroitin giúp tăng cường sức khỏe xương khớp và răng miệng. Chiết xuất Yucca giúp giảm mùi hôi của phân.</p><p>GIÁ TRỊ DINH DƯỠNG</p><p>Protein thô ≥ 22.0%</p><p>Chất béo thô ≥ 10.0%</p><p>Chất xơ thô ≤ 3.0%</p><p>Chất khoáng ≤ 9.0%</p><p>Độ ẩm &lt; 25.0%</p><p>Canxi 1.0 – 2.5%</p><p>Photpho 0.6 – 1.5%</p><p>HƯỚNG DẪN BẢO QUẢN</p><p>- Bảo quản nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp từ mặt trời. -</p><p>Dùng trong thời gian nhanh nhất sau khi mở bao bì.</p><p>- Sau khi mở túi 300gr bên trong sản phẩm, đổ luôn hạt ra bát ăn và buộc chặt miệng túi lại ngay lập tức.</p><p>- Sản phẩm sau khi đã bóc được khuyến khích bảo quản trong ngăn mát tủ lạnh. Trường hợp bảo quản trong tủ lạnh, khi lấy sản phẩm ra để sử dụng, bạn nên đặt sản phẩm ra ngoài khoảng 5-10 phút để sản phẩm trở về trạng thái nhiệt độ thường, sau đó tiếp tục sử dụng cho cún ăn.</p><p>- Ngưng sử dụng sản phẩm đã bị biến chất trong khi bảo quản. (Chú ý bảo quản khi thời tiết nóng ẩm và vào mùa hè) - Bảo quản xa tầm tay trẻ em.</p>', 'shopee-580394b0-a85e-45a1-b60a-9e6ea69aa576.webp'),
 (17, 'Balo Vải Vận Chuyển Chó Mèo Big Pet 40*37*25cm', 4, 5, '350000', '320000', '<h4>MÀU SẮC: Nhiều mẫu</h4><h4>Phù Hợp Cân Nặng &lt; 9KG</h4><p>Thông tin sản phẩm:</p><p>- Balo chất lượng đảm bảo: độ thông gió cần thiết, an toàn và không gian rộng rãi với kích thước lớn có thể đựng được nhiều pet và pet nặng dưới 9kg.</p><p>- Thiết kế phong cách phối màu đáng yêu - Balo có tấm cửa phía bên hông, dễ dàng cho thú cưng ra vào mà không cần mở hết balo.</p><p>- Nhiều lưới thoáng khí hai bên và trên trần balo giúp thú cưng không ngộp.</p><p>- Quai đeo chắc chắn và tỉ mỉ có đệm giúp sen không bị đau vai.</p><p>- Khóa kéo trượt êm ái.</p><p>- Kích thước: Cao 37cm x Ngang 40cm x Rộng 25cm</p><figure class=\"image\"><img style=\"aspect-ratio:1024/1024;\" src=\"http://localhost/puppypetshops/assets/img/z4349038238258-0e7aadef958ccc14a8c3f65c8afd3837.webp\" width=\"1024\" height=\"1024\"></figure><p>Cách vệ sinh và bảo quản:</p><p>- Khi chó hoặc mèo của bạn tè hay đi bậy vào balo thì trước hết bạn nên dùng khăn giấy lau bớt đi.</p><p>- Sau đó rửa nước và ngâm trong xà bông giặt đồ hoặc chất tẩy quần áo.</p><p>- Ngâm 20-30 phút, sau đó chà rửa sạch xà bông.</p><p>- Phơi khô nơi có nhiều nắng để mau khô và khử khuẩn balo.</p>', 'shopee-ce096e46-9544-489c-af31-eb28a5831db9.webp'),
+<<<<<<< HEAD
 (18, 'Áo thun hồng kẻ ngang gấu trà sữa cho chó mèo từ 6 kg đến 18kg', 4, 8, '45000', '42000', '<p>Mùa đông ? gió lạnh cận kề…<br>Áo ấm chưa có thì về với đội của Puppypet ngayy ❤️‍?</p><p>Nhà Puppy Pet có sẵn từ size 8 -&gt; size 12 phù hợp với nhiều dòng Cún. (Tham khảo bảng size ở trên hình ảnh)</p><p><img src=\"https://bizweb.dktcdn.net/100/375/956/products/size-98c37c28-35ca-4eb3-a46f-bbeba7426aa5.png?v=1700399376517\" width=\"1200\" height=\"1200\"></p><p>⭐️ Được làm từ chất liệu mềm mại, êm ái, không kích ứng da, phù hợp cho chó mèo yêu nhà bạn,nhiều size cho mọi dòng chó, mèo.</p><p>⭐️ Thiết kế thời trang, đơn giản mà phong cách. ?</p><p>⭐️ Được thiết kế trên dây chuyền hiện đại, với chất liệu tự nhiên, thích hợp cho thú cưng.&nbsp;</p><p>⭐️ Hoàn toàn yên tâm bởi các sản phẩm đều rất an toàn, dịu nhẹ. Và đặc biệt nó không gây kích ứng với da thú cưng của bạn.</p><p>Hàng có sẵn tại Puppy Pet Shop</p><p>Khi nhận hàng quý khách vui lòng kiểm tra tính nguyên vẹn và quay VIDEO CLIP khi mở hàng để tránh tình huống phát sinh. Mọi yêu cầu trả hàng nếu không cung cấp VIDEO CLIP mở hàng đều không được chấp nhận.<br>—————————————————<br>???Puppy Pet Shop ???<br>?CS1: 242 Kim Mã - Ba Đình - Hà Nội<br>☎️: 097 1111 242<br>?CS2: 32BT8 - KĐT Văn Quán - Hà Đông (Cổng trường tiểu học Ban Mai)<br>☎️: 098 1111 328<br>?HOTLINE : 091 898 5026</p>', '360106778-657810139711421-3722937013841683950-n.webp'),
 (19, 'Súp thưởng Nutri Plan Stick cho mèo thanh lẻ & hộp 100g', 5, 14, '3500', '32000', '<p>Súp thưởng Nutri Plan - Nutri Stick - Thức ăn hỗn hợp hoàn chỉnh cho mèo 56g (14g x4 thanh)</p><p><br>NUTRI STICK - MÈO NGON MIỆNG HƠN, MÈO KHOẺ MẠNH HƠN</p><p>NGUYÊN LIỆU TỪ CÁ NGỪ TƯƠI NGON</p><p>Dongwon là một chuyên gia về cá ngừ đánh bắt, sử dụng nguyên liệu chất lượng cao sẽ tốt cho sức khỏe và đem đến hương vị ngon miệng.</p><p>KIỂM SOÁT CÂN NẶNG</p><p>L-Carnitine, một dẫn xuất axit amin giúp kiểm soát cân nặng cho mèo.</p><p>HỖ TRỢ SỨC KHỎE</p><p>Axit amin thiết yếu Taurine trong cá ngừ rất cần để bảo vệ sức khoẻ tim mạch của mèo.</p><p><img src=\"https://bizweb.dktcdn.net/100/375/956/files/11.jpg?v=1690626190781\" width=\"448\" height=\"500\"></p><p>&nbsp;</p><p>HƯỚNG DẪN SỬ DỤNG:<br>1. Cho ăn trực tiếp:</p><p>Thanh súp thưởng NUTRI STICK có phần easy cut rất tiện lợi, chỉ cần xé và bóp, lượng súp thưởng sẽ ra đều, vừa phải giúp cho bé mèo có thể ăn một cách vô cùng sạch sẽ và ngon miệng. Đừng quên vừa cho ăn vừa vuốt ve ẻm nữa nha.</p><p>2. Trộn cùng với thức ăn hạt:</p><p>Dù bé mèo của bạn có kén ăn, lười ăn thế nào đi nữa thì vẫn không thể cưỡng lại được vị thơm ngon của NUTRI STICK. Cá ngừ trắng thơm thơm, bùi béo, chỉ cần trộn 1 ít súp thưởng với thức ăn hạt, đảm bảo 100% bát hạt sẽ hết ngay trong tick tak hehee</p><p>3. Trộn cùng với nước:</p><p>Mèo là một giống loài rất lười uống nước. Nhưng nếu mèo không uống đủ nước thì sẽ có nguy cơ cao bị mắc những bệnh về đường tiết niệu, tiêu hoá, ảnh hưởng đến sức khoẻ lông da,... Để kích thích chúng chăm chỉ uống nước hơn, bạn cũng có thể hoà 1 chút súp thưởng NUTRI STICK với nước nhé. Các bé mèo sẽ từ lười uống nước trở thành team mê uống nước ngay đấy!</p><p><img src=\"https://bizweb.dktcdn.net/100/375/956/files/2222.jpg?v=1690626272864\" width=\"792\" height=\"807\"></p><p>&nbsp;</p>', 'web-07fcc605-7204-4288-939a-41490c1866e6-7966366d-8262-4594-ab77-ff04dab1eb2e.webp'),
 (20, 'Áo thun kẻ ngang hình gấu cho chó mèo từ 6.5 kg đến 15kg', 5, 18, '75000', '60000', '<p>Mùa đông ? gió lạnh cận kề…<br>Áo ấm chưa có thì về với đội của Puppypet ngayy ❤️‍?</p><p>Nhà Puppy Pet có sẵn&nbsp;size 8, size 10 phù hợp với nhiều dòng Cún. (Tham khảo bảng size ở trên hình ảnh)</p><p><img src=\"https://bizweb.dktcdn.net/100/375/956/products/size-98c37c28-35ca-4eb3-a46f-bbeba7426aa5.png?v=1700399376517\" width=\"1200\" height=\"1200\"></p><p>⭐️ Được làm từ chất liệu mềm mại, êm ái, không kích ứng da, phù hợp cho chó mèo yêu nhà bạn,nhiều size cho mọi dòng chó, mèo.</p><p>⭐️ Thiết kế thời trang, đơn giản mà phong cách. ?</p><p>⭐️ Được thiết kế trên dây chuyền hiện đại, với chất liệu tự nhiên, thích hợp cho thú cưng.&nbsp;</p><p>⭐️ Hoàn toàn yên tâm bởi các sản phẩm đều rất an toàn, dịu nhẹ. Và đặc biệt nó không gây kích ứng với da thú cưng của bạn.</p><p>Hàng có sẵn tại Puppy Pet Shop</p><p>Khi nhận hàng quý khách vui lòng kiểm tra tính nguyên vẹn và quay VIDEO CLIP khi mở hàng để tránh tình huống phát sinh. Mọi yêu cầu trả hàng nếu không cung cấp VIDEO CLIP mở hàng đều không được chấp nhận.</p>', '296177341-1778373115834091-5175757860192800098-n.webp');
+=======
+(18, 'Áo thun hồng kẻ ngang gấu trà sữa cho chó mèo từ 6 kg đến 18kg', 4, 8, '45000', '42000', '<p>Mùa đông ? gió lạnh cận kề…<br>Áo ấm chưa có thì về với đội của Puppypet ngayy ❤️‍?</p><p>Nhà Puppy Pet có sẵn từ size 8 -&gt; size 12 phù hợp với nhiều dòng Cún. (Tham khảo bảng size ở trên hình ảnh)</p><p><img src=\"https://bizweb.dktcdn.net/100/375/956/products/size-98c37c28-35ca-4eb3-a46f-bbeba7426aa5.png?v=1700399376517\" width=\"1200\" height=\"1200\"></p><p>⭐️ Được làm từ chất liệu mềm mại, êm ái, không kích ứng da, phù hợp cho chó mèo yêu nhà bạn,nhiều size cho mọi dòng chó, mèo.</p><p>⭐️ Thiết kế thời trang, đơn giản mà phong cách. ?</p><p>⭐️ Được thiết kế trên dây chuyền hiện đại, với chất liệu tự nhiên, thích hợp cho thú cưng.&nbsp;</p><p>⭐️ Hoàn toàn yên tâm bởi các sản phẩm đều rất an toàn, dịu nhẹ. Và đặc biệt nó không gây kích ứng với da thú cưng của bạn.</p><p>Hàng có sẵn tại Puppy Pet Shop</p><p>Khi nhận hàng quý khách vui lòng kiểm tra tính nguyên vẹn và quay VIDEO CLIP khi mở hàng để tránh tình huống phát sinh. Mọi yêu cầu trả hàng nếu không cung cấp VIDEO CLIP mở hàng đều không được chấp nhận.<br>—————————————————<br>???Puppy Pet Shop ???<br>?CS1: 242 Kim Mã - Ba Đình - Hà Nội<br>☎️: 097 1111 242<br>?CS2: 32BT8 - KĐT Văn Quán - Hà Đông (Cổng trường tiểu học Ban Mai)<br>☎️: 098 1111 328<br>?HOTLINE : 091 898 5026</p>', '360106778-657810139711421-3722937013841683950-n.webp');
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
 
 -- --------------------------------------------------------
 
@@ -175,6 +187,7 @@ INSERT INTO `tbl_product_img_des` (`product_id`, `product_img_des`) VALUES
 (18, 'sg-11134201-7qvcy-lk6b23b2fgnea3.webp'),
 (18, 'sg-11134201-7qvd6-lk6b23xtjlav39.webp'),
 (12, '16925421-1d68-42c4-b337-5070fab856b3.webp'),
+<<<<<<< HEAD
 (12, 'z4769936240863-60386889c3579bb46ba62dd4ac9470eb.webp'),
 (19, '11-d1816e54-5c55-4c97-94bc-e61792ea5069-393c88ca-d9c8-4726-8609-6f5b463fc977.webp'),
 (19, '79d5119bca130a274704852a7b256761-94b65002-51d5-4c07-a1f8-d1fcfe3c341b.webp'),
@@ -229,6 +242,9 @@ INSERT INTO `tbl_service_register` (`ser_id`, `service_id`, `user_id`, `ser_name
 (16, 1, 15, 'Minh Tùngwdw', '3rrdw', '2023-12-22', 'dw', 'grgrege'),
 (17, 2, 15, 'Minh Tùngwdw', 'dw', '2023-12-22', 'dwd', 'wd'),
 (21, 4, 2, 'Minh Tùng', 'ca7nh9@gma', '2023-12-22', '0329723748', 'Thái Bình');
+=======
+(12, 'z4769936240863-60386889c3579bb46ba62dd4ac9470eb.webp');
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
 
 -- --------------------------------------------------------
 
@@ -241,7 +257,10 @@ CREATE TABLE `tbl_user` (
   `user_name` varchar(20) DEFAULT NULL,
   `user_address` varchar(50) DEFAULT NULL,
   `user_email` varchar(20) DEFAULT NULL,
+<<<<<<< HEAD
   `user_sdt` varchar(10) DEFAULT NULL,
+=======
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
   `user_username` varchar(20) NOT NULL,
   `user_password` varchar(10) NOT NULL,
   `user_role` tinyint(1) NOT NULL DEFAULT 0
@@ -251,10 +270,16 @@ CREATE TABLE `tbl_user` (
 -- Đang đổ dữ liệu cho bảng `tbl_user`
 --
 
+<<<<<<< HEAD
 INSERT INTO `tbl_user` (`user_id`, `user_name`, `user_address`, `user_email`, `user_sdt`, `user_username`, `user_password`, `user_role`) VALUES
 (1, NULL, NULL, NULL, NULL, 'admin', 'admin', 1),
 (2, 'Minh Tùng', 'Thái Bình', 'ca7nh9@gmail.com', '0329723748', 'minhtung', '123', 0),
 (15, NULL, NULL, NULL, NULL, 'minhtung12', '1', 0);
+=======
+INSERT INTO `tbl_user` (`user_id`, `user_name`, `user_address`, `user_email`, `user_username`, `user_password`, `user_role`) VALUES
+(1, NULL, NULL, NULL, 'admin', 'admin', 1),
+(2, NULL, NULL, NULL, 'minhtung', '123', 0);
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
 
 --
 -- Chỉ mục cho các bảng đã đổ
@@ -279,6 +304,7 @@ ALTER TABLE `tbl_product`
   ADD PRIMARY KEY (`product_id`);
 
 --
+<<<<<<< HEAD
 -- Chỉ mục cho bảng `tbl_service`
 --
 ALTER TABLE `tbl_service`
@@ -291,6 +317,8 @@ ALTER TABLE `tbl_service_register`
   ADD PRIMARY KEY (`ser_id`);
 
 --
+=======
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
 -- Chỉ mục cho bảng `tbl_user`
 --
 ALTER TABLE `tbl_user`
@@ -316,6 +344,7 @@ ALTER TABLE `tbl_category`
 -- AUTO_INCREMENT cho bảng `tbl_product`
 --
 ALTER TABLE `tbl_product`
+<<<<<<< HEAD
   MODIFY `product_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 
 --
@@ -329,12 +358,19 @@ ALTER TABLE `tbl_service`
 --
 ALTER TABLE `tbl_service_register`
   MODIFY `ser_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+=======
+  MODIFY `product_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
 
 --
 -- AUTO_INCREMENT cho bảng `tbl_user`
 --
 ALTER TABLE `tbl_user`
+<<<<<<< HEAD
   MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+=======
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

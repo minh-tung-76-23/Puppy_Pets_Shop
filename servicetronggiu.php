@@ -35,6 +35,7 @@
         </div>
 
         <div class="service_item-1-regis">
+<<<<<<< HEAD
             <?php
                 if(isset($_SESSION['username'])) {
                     $username = $_SESSION['username'];
@@ -50,31 +51,51 @@
                     <input type="text" name="txthoten" required 
                         <?php echo empty($info_user['user_name']) ? 'placeholder="Chưa có thông tin về họ tên"' : 'value="' . $info_user['user_name'] . '"'; ?>
                     >
+=======
+            <form action="" method="post" class="service_item-form">
+                <h2>ĐĂNG KÝ DỊCH VỤ</h2>
+                <div class="input-type">
+                    <label for="">Họ Tên</label>
+                    <input type="text" name="txthoten" required placeholder="Nhập họ tên">
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
                 </div>
 
                 <div class="input-type">
                     <label for="">Email</label>
+<<<<<<< HEAD
                     <input type="text" name="txtemail" required 
                         <?php echo empty($info_user['user_email']) ? 'placeholder="Nhập email"' : 'value="' . $info_user['user_email'] . '"'; ?>
                     >
+=======
+                    <input type="text" name="txtemail" required placeholder="Nhập Email">
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
                 </div>
 
                 <div class="input-type">
                     <label for="">Số điện thoại</label>
+<<<<<<< HEAD
                     <input type="text" name="txtsdt" required 
                         <?php echo empty($info_user['user_sdt']) ? 'placeholder="Nhập Số điện thoại"' : 'value="' . $info_user['user_sdt'] . '"'; ?>
                     >
+=======
+                    <input type="text" name="txtsdt" required placeholder="Nhập Số điện thoại">
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
                 </div>
 
                 <div class="input-type">
                     <label for="">Địa chỉ</label>
+<<<<<<< HEAD
                     <input type="text" name="txtdiachi" required 
                         <?php echo empty($info_user['user_address']) ? 'placeholder="Chưa có thông tin về địa chỉ"' : 'value="' . $info_user['user_address'] . '"'; ?>
                     >
+=======
+                    <input type="text" name="txtdiachi" required placeholder="Nhập địa chỉ">
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
                 </div>
 
                 <div class="input-type">
                     <label for="">Dịch vụ đăng ký</label>
+<<<<<<< HEAD
                     <input type="text" name="txtdichvu" value="Dịch vụ trông giữ chó mèo" readonly>
                 </div>
 
@@ -87,6 +108,11 @@
                     }
                 ?>
 
+=======
+                    <input type="text" name="txtdichvu" value="Dịch vụ trông giữ chó mèo" disabled>
+                </div>
+
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
                 <input type="submit" name="submit" value="Đăng ký ngay" class="btn_submit" >
             </form>
 

@@ -147,28 +147,46 @@
             <i class="fa-solid fa-scissors ic-1"></i>
             <h2>GROOMING</h2>
             <p>Chúng tối biết cách làm thế nào để thú cưng của bạn trở nên đẳng cấp và cá tính hơn. Với dịch vụ cắt tỉa lông thú cưng chúng tôi sẽ giúp các bé trở thành phiên bản hoàn hảo nhất...</p>
+<<<<<<< HEAD
             <a href="servicechamsocthucung.php">
                 <button class="more">
                     Xem thêm
                 </button>
             </a>
+=======
+            <button class="more">
+                Xem thêm
+            </button>
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
             <i class="fa-regular fa-heart ic-heart"></i>
         </div>
 
         <div class="service_index-right-item">
             <i class="fa-solid fa-dog ic-1"></i>
             <h2>SHOP</h2>
+<<<<<<< HEAD
             <p>Cùng với hơn 3.000 khách hàng đã luôn tin tưởng, đồng hành, chúng tôi luôn đặt ra những mục tiêu và thử thách mới. PET SHOP cung cấp các sản phẩm, phụ kiện rất đa dạng...</p>
             <a href="servicespathucung.php">
                 <button class="more">
                     Xem thêm
                 </button>
             </a>
+=======
+<<<<<<< HEAD
+            <p>Cùng với hơn 3.000 khách hàng đã luôn tin tưởng, đồng hành, chúng tôi luôn đặt ra những mục tiêu và thử thách mới. PET SHOP cung cấp các sản phẩm, phụ kiện rất đa dạng...</p>
+=======
+            <p>Cùng với hơn 3.000 khách hàng đã luôn tin tưởng, đồng hành, chúng tôi luôn đặt ra những mục tiêu và thử thách mới. PET SERVICE cung cấp các sản phẩm, phụ kiện rất đa dạng...</p>
+>>>>>>> 7fcad9926185ba52545444f4f210897ccca0cae7
+            <button class="more">
+                Xem thêm
+            </button>
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
             <i class="fa-regular fa-heart ic-heart"></i>
         </div>
 
         <div class="service_index-right-item">
             <i class="fa-solid fa-house-medical-flag ic-1"></i>
+<<<<<<< HEAD
             <h2>HOME</h2>
             <p>Mọi hành động ở PET SHOP đều bắt đầu từ sứ mệnh Trao Gửi Yêu Thương. Mọi thú cưng mới khi đến với chúng tôi đều được quan tâm đặc biệt bởi đội ngũ Nhân viên nhiều kinh nghiệm...</p>
             <a href="servicetronggiu.php">
@@ -176,6 +194,17 @@
                     Xem thêm
                 </button>
             </a>
+=======
+            <h2>HOTEL</h2>
+<<<<<<< HEAD
+            <p>Mọi hành động ở PET SHOP đều bắt đầu từ sứ mệnh Trao Gửi Yêu Thương. Mọi thú cưng mới khi đến với chúng tôi đều được quan tâm đặc biệt bởi đội ngũ Nhân viên nhiều kinh nghiệm...</p>
+=======
+            <p>Mọi hành động ở PET SERVICE đều bắt đầu từ sứ mệnh Trao Gửi Yêu Thương. Mọi thú cưng mới khi đến với chúng tôi đều được quan tâm đặc biệt bởi đội ngũ Nhân viên nhiều kinh nghiệm...</p>
+>>>>>>> 7fcad9926185ba52545444f4f210897ccca0cae7
+            <button class="more">
+                Xem thêm
+            </button>
+>>>>>>> 59cc3e513b86d1c91814760717b79d6a09919115
             <i class="fa-regular fa-heart ic-heart"></i>
         </div>
 
