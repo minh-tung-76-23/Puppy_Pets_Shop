@@ -1,0 +1,247 @@
+/* Modal */
+/* .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    animation: fadeIn linear 0.1s ;
+    display: block;
+}
+.modal__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4) ;
+}
+
+.modal__body {
+    --growth-from: 0.7;
+    --growth-to: 1;
+    background-color: #fff;
+    margin: auto ;
+    position: relative;
+    border-radius: 5px;
+    animation: growth linear 0.1s;
+} */
+
+
+/*authen modal */
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.content_mid {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(238, 77, 45);
+}
+
+.modal__body {
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+
+.auth-form {
+    background-color: #fff;
+    width: 500px;
+    border: 1px solid #ccc;
+}
+
+.auth-form__input {
+    width: 100%;
+    margin-top: 16px;
+    padding: 6px 12px;
+    font-size: 1rem;
+    border: 1px solid #dbdbdb ;
+    border-radius: 2px;
+    outline: none;
+}
+
+.auth-form__input:focus {
+    border-color: #777;
+}
+
+.auth-form__container {
+    padding: 20px 32px;
+}
+
+.auth-form__aside {
+    margin-top: 16px;
+}
+
+.auth-form__policy-text {
+    font-size: 1rem;
+    line-height: 1.8rem;
+    text-align: center;
+}
+
+.auth-form__form {
+    padding-top: 16px;
+}
+
+.auth-form__controls {
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.auth-form__controls-back {
+    margin-right: 8px;
+    background-color: #fff;
+}
+
+.auth-form__social {
+    background-color: #f5f5f5;
+    padding: 12px 36px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.auth-form__social-icon {
+    font-size: 1.8rem;
+}
+
+.auth-form__social--facebook {
+    background-color: #3a5a98 ;
+    color: #fff;
+}
+
+.auth-form__social--facebook 
+.auth-form__social-icon {
+    color: #fff
+}
+
+.auth-form__text-link {
+    text-decoration: none;
+    color: #ee4d2d ;
+}
+.auth-form__header {
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+}
+
+.auth-form__heading {
+    font-size: 1.8rem;
+    font-weight: 400;
+    
+}
+.auth-form__switch-btn {
+    color: #ee4d2d ;
+    font-size: 1.8rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.btn.btn--size-s {
+    height: 32px;
+    font-size: 12px; 
+    padding: 20px 12px;
+    margin: 0 6px;
+}
+
+.auth-form__social-title {
+    margin: 0 6px; 
+}
+
+.auth-form__social--google {
+    color: #a50f0f;
+    background-color: #fff;
+}
+
+.auth-form__help {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.auth-form__help-link {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #939393;
+    cursor: pointer;
+}
+
+.auth-form__help-spearate {
+    display: block;
+    border-left: 1px solid #dbdbdb;
+    height: 19px;
+    margin: -1px 12px;
+}
+
+.auth-form__help-forgot {
+    color: #ee4d2d ;
+}
+
+/*Button style */
+.btn {
+    width: 50%;
+    height: 44px;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    font-size: 1.2rem;
+    padding: 0 62px;
+    cursor: pointer;
+    color : black;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn.btn--normal:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.btn.btn--primary {
+    color: #fff;
+    background-color: #ee4d2d; 
+}
+
+.btn.btn--primary:hover {
+    color: #ff795e;
+}
+
+
+
+/*Animation*/
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    } 
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes growth {
+    from {
+        transform: scale(var(--growth-from))
+    } 
+    to {
+        transform: scale(var(--growth-to))
+    }
+}
+
+.content_logo {
+    display: flex;
+    line-height: 115px;
+    color: rgb(238, 77, 45);
+}
+
+.content_logo p {
+    color: #222;
+    padding-left: 8px;
+    padding-top: 1px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.mid_header {
+    height: 115px;
+    background-color: #fff;
+    justify-content: flex-start;
+}

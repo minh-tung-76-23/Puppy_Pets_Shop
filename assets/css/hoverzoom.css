@@ -1,0 +1,69 @@
+/* HIỆU ỨNG ZOOM ẢNH */
+.hover_zoom {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.hover_zoom .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0); /* Màu đen trong suốt */
+    transition: background 0.3s; /* Hiệu ứng mượt mà khi hover */
+    content: '';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.hover_zoom img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s; /* Hiệu ứng mượt mà khi hover */
+}
+
+.hover_zoom:hover .overlay {
+    background: rgba(0, 0, 0, 0.4); /* Khi di chuột lên thẻ div, hiển thị màu đen trong suốt */
+}
+
+.hover_zoom:hover img {
+    transform: scale(1.1); /* Khi di chuột lên thẻ div, phóng to ảnh lên 1.1 lần kích thước ban đầu */
+}
+
+.hover_zoom .overlay::before,
+.hover_zoom .overlay::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    transition: width 1s;
+}
+
+.hover_zoom .overlay::before {
+    top: 0;
+    left: 0;
+    margin: 8px 10px;
+}
+
+/* .header_nav-tks .overlay::before::before {
+    top: 0;
+    right: 0;
+    margin: 8px 10px;
+} */
+
+.hover_zoom .overlay::after {
+    bottom: 0;
+    right: 0;   
+    margin: 8px;
+}
+
+.hover_zoom:hover .overlay::before,
+.hover_zoom:hover .overlay::after {
+    width: 90%;
+    background-color: #fff;
+}

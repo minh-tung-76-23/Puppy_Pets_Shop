@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    width: 100%;
+    border-bottom: 2px solid #dddd;
+    text-align: center;
+    align-items: center;
+}
+
+.mid_header {
+    width: 100%;
+    height: 120px;
+    line-height: 135px;
+    background-color: #bb3107;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 160px;
+}
+
+.logo_shop {
+    display: flex;
+}
+
+.logo_shop h1 {
+    color: #fff;
+}
+
+.content_logo a {
+    color: #fff;
+}
+
+.content_logo a:hover {
+    color: aqua;
+}
+
+.admin-content {
+    display: flex; 
+}
+
+/*------------- CONTENT LEFT */
+
+.admin-content_left {
+    background-color: #dddddd;
+    width: 17%;
+    height: 900px;
+    padding: 0 0 0 12px;
+}
+
+.admin-content_left ul li {
+    padding-left: 20px;
+}
+
+.admin-content_left {
+
+}
+
+.list_content-left p {
+    font-weight: bold;
+    padding: 12px 0 4px 0;
+}
+
+.list_content-left ul li {
+    padding: 8px 0 8px 12px;
+}
+
+.list_content-left ul li:hover {
+    background-color: #bb3107;
+}
+
+.list_content-left ul li a {
+    font-size: 14px;
+}
+
+.list_content-left ul li:hover a {
+    color: #fff;
+
+}
+/*------------- CONTENT RIGHT */
+
+.admin-content_right {
+    width: 83%;
+    padding: 16px 0 0 12px;
+}
+
+.admin-content_right h1 {
+    text-align: center;
+}
+
+.admin-content_right-category_add input {
+    height: 30px;
+    width: 200px;
+    padding-left: 12px;
+    margin-top: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.admin-content_right-product_add button,
+.admin-content_right-category_add button {
+    display: block;
+    margin-top: 12px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    background-color: rgb(228, 53, 53);
+    color: white;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    margin-left: 100px;
+    transition: all .4s ease;
+}
+
+.admin-content_right-product_add button:hover,
+.admin-content_right-category_add button:hover {
+    color: rgb(230, 91, 91);
+    background-color: transparent;
+    border: 1px solid rgb(230, 91, 91);
+    font-weight: bold;
+}
+
+/*------------ Category-list */
+.admin-content_right-category_list table {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.admin-content_right-category_list thead td {
+    background-color: #acacac;
+    padding: 8px;
+}
+
+.admin-content_right-category_list table tr td {
+    padding: 8px 0;
+    border: 1px solid #ddd;
+}
+
+.admin-content_right-category_list table tr td a:hover {
+    color: #bb3107;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+/* -----Brand ADD */
+select {
+    width: 200px;
+    height: 30px;
+}
+
+/* ------------PRODUCT */
+.admin-content_right-product_add input, select {
+    width: 200px;
+    height: 30px;
+    display: block;
+    margin: 20px 0;
+}
+
+.admin-content_right-category_list table tr td img {
+    width: 100px;
+    height: 100px;
+    padding: 8px;
+}
+
+.pdt_img {
+    width: 40%;
+}
+
+.img_des {
+    width: 20%;
+    height: 20%;
+    margin-right: 16px;
+}
+
+.admin-content_right-product_add > h1 {
+    margin-bottom: 24px;
+}
+
+.admin-content_right-product_add label {
+    position: relative;
+}
+
+.admin-content_right-product_add label::after {
+    position: absolute;
+    display: block;
+    content: "";
+    border-bottom: 1px solid blue;
+    width: 100%;
+}
+
+.admin-content_right-product_list {
+    height: 620px;
+    overflow-y: auto;
+}
+
+.admin-content_right-ser_list {
+    height: 450px;
+    overflow-y: auto;
+}
+
+.admin-content_right-product_list table tr td {
+    border: 1px solid #ddd;
+    overflow: hidden; /* Ẩn phần nội dung vượt ra khỏi chiều rộng đã đặt */
+    text-overflow: ellipsis; /* Hiển thị dấu "..." khi nội dung vượt quá chiều rộng */
+}
+
+/* -----------USER */
+.form_ct {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+}
+
+.input-type {
+    padding: 12px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.input-type label { 
+    padding-top: 17px;
+}
+
+.input-type input {
+    width: 70%;
+}
+
+.btn_submit {
+    margin-left: 30%;
+    background-color: #bb3107;
+    color: #fff;
+}
+
+.btn_submit:hover {
+    color: #bb3107;
+    background-color: #fff;
+    cursor: pointer;
+    border: 1px solid #bb3107;
+}
+
+.form_ct-ser {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.form_ct-ser .input-type {
+    justify-content: flex-end;
+
+}
+
+.form_ct-ser .input-type label {
+    margin-right: 20px;
+    padding-top: 8px;
+}
+
+.form_ct-ser .input-type input {
+    height: 30px;
+}
+.form_ct-ser .input-type input:last-child {
+    width: 15%;
+    margin-left: 0;
+    border: #bb3107;
+    border-radius: 5px;
+}
+
+.fomat_price {
+    width: 20%;
+    height: 80px;
+    padding-top: 16px;
+    text-align: center;
+    margin-top: 20px;
+    /* border: 1px solid #ccc; */
+    box-shadow: 1px 1px 8px 3px #ccc;
+    border-radius: 8px;
+}
+
+.fomat_price span:last-child {
+    padding-left: 12px;
+    color: #bb3107;
+    font-weight: bold;
+}
+
+.service_list-top {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.service_list-top > form > input {
+    margin-left: 0px;
+    height: 40px;
+    margin-top: 36px;
+    border: none;
+    border-radius: 16px;
+    padding: 0 12px;
+}
+
+.serviced_list-bot{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fomat_price span {
+    font-weight: bold;
+}
+
+.fomat_price p {
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+/* -------------Order Detail */
+.admin-content_right_detail {
+    padding: 0;
+}
+.pay_service {
+    background-color: #eaeaea;
+    height: 883px;
+}
+
+.pay_service .container {
+    margin: 0 160px;
+    background-color: #fff;
+}
+
+.pay_service .container h1 {
+    text-align: center;
+    padding: 16px;
+    color: #bb3107;
+}
+
+.pay_service-content {
+    margin: 0 0 0 200px;;
+}
+
+.pay_service-ct {
+    display: flex;
+    padding: 20px 0;
+}
+
+.pay_service-ct-table {
+    margin-left: -30px;
+}
+
+.pay_service-ct > p {
+    margin-left: -200px;
+}
+
+.pay_service-ct span {
+    color: #bb3107;
+    width: 60%;
+}
+
+.btn_pay-ser {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -150px;
+}
+
+.btn_pay-ser-ct {
+    text-align: center;
+    padding: 12px 20px;
+    background-color: #bb3107;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn_pay-ser-ct:hover {
+    background-color: #fff;
+    color: #bb3107;
+    cursor: pointer;
+    border: 1px solid #bb3107;
+}
